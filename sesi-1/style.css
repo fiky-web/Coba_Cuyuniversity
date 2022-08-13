@@ -18,3 +18,11 @@ html {
   justify-content: center;
   align-items: center;
 }
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 30px;
+}
