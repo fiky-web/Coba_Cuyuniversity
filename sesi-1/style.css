@@ -75,3 +75,16 @@ html {
   width: 50%;
   height: 50%;
 }
+
+.container-footer {
+  height: 10vh;
+  background-color: crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  font-size: 40px;
+  color: white;
+}
