@@ -23,3 +23,8 @@ function generateBiodata() {
   }
   return biodata.innerHTML = generasi;
 }
+
+console.log(nama);
+console.log(usia);
+
+generateBiodata();
