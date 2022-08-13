@@ -26,3 +26,9 @@ html {
   color: white;
   font-size: 30px;
 }
+
+#biodata {
+  background: red;
+  width: 500px;
+  height: 500px;
+}
