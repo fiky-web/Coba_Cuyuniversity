@@ -11,3 +11,10 @@ html {
   width: 100%;
   height: 10vh;
 }
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
