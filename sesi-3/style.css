@@ -7,3 +7,9 @@
    color: #333;
    cursor: pointer;
  }
+.tanpa-bootstrap:hover {
+   background-color: aqua;
+   color: black;
+   transform: rotateY(2);
+   transition: all .5s;
+ }
