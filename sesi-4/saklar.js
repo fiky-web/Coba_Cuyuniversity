@@ -12,3 +12,9 @@ function saklar() {
   } else {
     lampu1.src = "assets/images/off.gif";
   }
+
+  if (toggle2.checked) {
+    lampu2.src = "assets/images/on.gif"
+  } else {
+    lampu2.src = "assets/images/off.gif";
+  }
