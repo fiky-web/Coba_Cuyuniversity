@@ -6,3 +6,9 @@ function saklar() {
   let lampu1 = document.getElementById("lampu1");
   let lampu2 = document.getElementById("lampu2");
   let lampu3 = document.getElementById("lampu3");
+  
+   if (toggle1.checked) {
+    lampu1.src = "assets/images/on.gif"
+  } else {
+    lampu1.src = "assets/images/off.gif";
+  }
