@@ -18,3 +18,10 @@ function saklar() {
   } else {
     lampu2.src = "assets/images/off.gif";
   }
+  
+  if (toggle3.checked) {
+    lampu3.src = "assets/images/on.gif"
+  } else {
+    lampu3.src = "assets/images/off.gif";
+  }
+}
