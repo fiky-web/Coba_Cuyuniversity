@@ -26,3 +26,11 @@
       const darkLimit = 5;
       let darkCounter = 0;
       let darkRemainingLeft;
+      
+      function darkMode() {
+        if(darkRemainingLeft == 1){
+          info.textContent = "💥 JATAH FITUR DARKMODE ANDA SUDAH HABIS 💥";
+          mode.style.display = "none";
+          home.textContent = "RESTART";
+          return;
+        }
