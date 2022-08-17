@@ -36,3 +36,9 @@
         }
          darkCounter += 1;
         darkRemainingLeft = darkLimit - darkCounter;
+        
+        //render ke info element
+        info.textContent = `Darkmode dipakai ${darkCounter}x, tersisa ${darkRemainingLeft}`;
+
+        body.classList.toggle("dark");
+      }
