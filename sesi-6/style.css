@@ -60,3 +60,7 @@ nav a:hover {
   0% {
     font-size: 16px;
   }
+  
+  50% {
+    font-size: 18px;
+  }
