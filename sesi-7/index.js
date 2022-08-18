@@ -21,3 +21,6 @@ const server = http.createServer(function (request, response) {
   fs.appendFile('sisauang.txt', sisa, () => {
     console.log('data uang berhasil disimpan')
   });
+  
+  const sisaRAM = os.freemem();
+  const jumlahCPU = os.cpus();
