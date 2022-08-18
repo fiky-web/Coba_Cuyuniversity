@@ -17,3 +17,7 @@ const server = http.createServer(function (request, response) {
   uang = rupiah.convert(uang)
   jajan = rupiah.convert(jajan)
   sisa = rupiah.convert(sisa)
+  
+  fs.appendFile('sisauang.txt', sisa, () => {
+    console.log('data uang berhasil disimpan')
+  });
