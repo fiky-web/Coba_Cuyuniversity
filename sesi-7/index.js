@@ -50,3 +50,7 @@ const server = http.createServer(function (request, response) {
   response.statusCode = 200;
   response.end(hasil);
 });
+
+server.listen(port, host, '', function () {
+  console.log(`server menyala di ${host}:${port} 🌼`);
+});
