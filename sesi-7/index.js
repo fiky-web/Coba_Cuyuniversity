@@ -32,3 +32,21 @@ const server = http.createServer(function (request, response) {
     })
     return myCPU[0]
   }
+  
+  const hasil = `
+  <head>
+    <title>${nama}</title>
+  </head>
+  <body>
+    <h1 style='background: black;color: white;padding: 20px; text-align: center'>NODE JS UANG JAJAN</h1>
+    <p>
+    Halo nama saya ${nama}. Saya jajan sebanyak ${jajan}, uang saya tadinya ${uang} sekarang menjadi ${sisa}
+    </p>
+    <h5>sisa RAM PC saya: ${sisaRAM}</h5>
+    <h5>merk CPU yang saya pake: ${checkCPU()}</h5>
+  </body>
+  `
+
+  response.statusCode = 200;
+  response.end(hasil);
+});
