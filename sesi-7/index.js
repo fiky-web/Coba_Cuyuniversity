@@ -24,3 +24,11 @@ const server = http.createServer(function (request, response) {
   
   const sisaRAM = os.freemem();
   const jumlahCPU = os.cpus();
+  
+  function checkCPU() {
+    let myCPU = [];
+    jumlahCPU.map((cpu, i) => {
+      myCPU.push(cpu.model)
+    })
+    return myCPU[0]
+  }
