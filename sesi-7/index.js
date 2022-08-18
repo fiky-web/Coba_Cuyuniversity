@@ -14,3 +14,6 @@ const server = http.createServer(function (request, response) {
   let uang = 500000;
   let jajan = 150000;
   let sisa = uang - jajan;
+  uang = rupiah.convert(uang)
+  jajan = rupiah.convert(jajan)
+  sisa = rupiah.convert(sisa)
